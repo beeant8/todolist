@@ -1,5 +1,7 @@
-# Use of slideshow and toggle dropdown menu
+Vous souhaitez conquérir lee monde?
+Commencez par faire cette to-do list et le reste suivra !!
 
-This is a simple *rails app* created to discover how to integrate a **slideshow with jquery** & a **bootstrap dropdown menu**.
+made with love by @Pris
 
-![slideshow](https://nsa39.casimages.com/img/2018/08/05/180805092141232264.png)
+Vous pouvez la cloner en local grace à git clone https://github.com/beeant8/todolist
+
