@@ -1,0 +1,171 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Alegreya Extra-Bold Italic', sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
+  background-color: #d1002d ;
+  color: white;
+  height: 12%;
+  margin-top: 0px;
+  padding: 0;
+  font-weight: 700;
+}
+
+#all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e0ccdf;
+  flex: 1;
+  height: 88%;
+
+}
+
+/* TAB & ONGLETS */
+.onglets {
+  height: 30%;
+  width: 100%;
+  background-color: #fff1dd;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab {
+     display: none ;
+     background-color: white;
+     width: 750px;
+     height: 50%;
+     border-radius: 10px;
+     padding: 10px;
+     font-weight: 100;
+}
+
+.tab-active {
+     display: block ;
+}
+
+#avis .material-icons {
+  color: #C8553D;
+}
+
+#stars {
+  width: 200px;
+}
+
+#tab-nav li {
+	display: inline-block ;
+}
+
+#tab-nav a {
+	display: block ;
+	border-width: 1px 1px 0 1px ;
+	padding: 10px 5px ;
+	border-radius: 5px 5px 0 0 ;
+	background-color: #d1002d;
+  text-decoration: none;
+  color: black;
+}
+
+#tab-nav .tab-nav-active {
+	background-color: white ;
+}
+
+#tab-nav {
+	margin: 0px ;
+	padding: 0px;
+	position: relative ;
+	bottom: -1px ;
+}
+
+#tab-nav a:hover {
+	background-color: #C8553D ;
+}
+
+/* CARROUSEL */
+#nav-carousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#nav-carousel li {
+  display: inline-block;
+}
+
+#nav-carousel ul {
+   text-align: center;
+}
+
+#nav-carousel i {
+    text-decoration: none;
+    font-size: 55px;
+    color: white;
+}
+
+#carousel {
+   width: 750px;
+   height: 350px;
+   overflow: hidden;
+   border: 3px solid #F2F2F2;
+}
+
+#carousel ul {
+   padding: 0;
+   margin: 0;
+}
+
+.image {
+  display: none ;
+}
+
+.image-active {
+  display: block ;
+}
+
+/* Navigateur cercles */
+
+#circles {
+  margin-top: 0px;
+}
+
+#circles li {
+  display: inline-block;
+}
+#circle1, #circle2, #circle3 {
+  border: white 3px solid;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+
+#circle1:hover, #circle2:hover, #circle3:hover {
+  background-color: white;
+}
+
+/* FOOTER */
+
+footer {
+  background-color:#d1002d;
+  color: white;
+  height: 30%;
+  font-weight: 300;
+  text-align: center;
+  padding: 10px;
+}

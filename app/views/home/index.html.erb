@@ -1,0 +1,83 @@
+
+<header>
+    <h1>Vous souhaitez conquérir le monde? Suivez simplement cette to-do list!</h1>
+
+</header>
+
+<div id="all">
+    <div class="onglets">
+	      <ul id="tab-nav">
+	        <li> <a href="#" data-tab="cocoon" class="tab-nav-active">Tout doux 1</a> </li>
+	        <li> <a href="#" data-tab="musique">Toudoudoudoudou 2</a> </li>
+	        <li> <a href="#" data-tab="sport">Just (To) Do It</a> </li>
+	      </ul>
+        <div id="cocoon" class="tab tab-active">
+           <ul>
+          		<li>Arrêter de fumer</li>
+          		<li> Un massage aux pierres chaudes </li>
+          		<li> Un grand mug de cacao </li>
+          	</ul>
+          </div>
+
+        <div id="musique" class="tab">
+         <ul>
+          		<li>Chantonner sous la douche</li>
+          		<li> Jouer un morceau au piano </li>
+          		<li> Danser sur JJG </li>
+          	</ul>
+        </div> 
+
+        <div id="sport" class="tab">
+          <ul>
+          		<li> YOGA </li>
+          		<li> Running </li>
+          		<li> Danser sur JJG </li>
+          	</ul>
+
+        </div>
+    </div>
+
+    <div id="nav-carousel">
+      <ul>
+        <li> <a href="#" role="button"><i id="prev" class="material-icons">keyboard_arrow_left</i></a> </li>
+        <li id="carousel">
+          <ul>
+           <li id="image1" class="image image-active">
+              <%= image_tag("image1.jpg", style:"width: 750px; height: 350px;" ) %>
+            </li>
+            <li id="image2" class="image">
+              <%= image_tag("image2.jpg", style:"width: 750px; height: 350px;" ) %>
+            </li>
+            <li id="image3" class="image image-active">
+              <%= image_tag("image3.jpg", style:"width: 7s50px; height: 350px;" ) %>
+            </li>
+            <li id="image4" class="image image-active">
+              <%= image_tag("image3.jpg", style:"width: 7s50px; height: 350px;" ) %>
+            </li>
+            <li id="image5" class="image image-active">
+              <%= image_tag("image3.jpg", style:"width: 7s50px; height: 350px;" ) %>
+            </li>
+            <li id="image6" class="image image-active">
+              <%= image_tag("image3.jpg", style:"width: 7s50px; height: 350px;" ) %>
+            </li>
+            <li id="image7" class="image image-active">
+              <%= image_tag("image3.jpg", style:"width: 7s50px; height: 350px;" ) %>
+            </li>
+            <li id="image8" class="image image-active">
+              <%= image_tag("image3.jpg", style:"width: 7s50px; height: 350px;" ) %>
+            </li>
+          </ul>
+        </li>
+        <li> <a href="#" role="button"><i id="next" class="material-icons">keyboard_arrow_right</i> </a></li>
+      </ul>
+    </div>
+    <ul id="circles">
+      <a href="#" role="button"><li id="circle1"></li></a>
+      <a href="#" role="button"><li id="circle2"></li></a>
+      <a href="#" role="button"><li id="circle3"></li></a>
+     </ul>
+</div>
+
+<footer>
+  <span> Made with ❤️</span>
+</footer>
